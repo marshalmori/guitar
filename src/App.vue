@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+import { ref, reactive } from "vue";
+import { db } from "./data/guitarras";
+</script>
 
 <template>
   <header class="py-5 header">
