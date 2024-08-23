@@ -13,13 +13,33 @@ onMounted(() => {
 });
 
 const agregarCarrito = (guitarra) => {
-  guitarra.cantidad = 1;
-  carrito.value.push(guitarra);
+  const existeCarrito = carrito.value.findIndex(
+    (producto) => producto.id === guitarra.id
+  );
+
+  if (existeCarrito >= 0) {
+    carrito.value[existeCarrito].cantidad++;
+  } else {
+    guitarra.cantidad = 1;
+    carrito.value.push(guitarra);
+  }
+};
+
+const incrementarCantidad = () => {
+  console.log("Mas...");
+};
+
+const decrementarCantidad = () => {
+  console.log("Menos...");
 };
 </script>
 
 <template>
-  <Header :carrito="carrito" />
+  <Header
+    :carrito="carrito"
+    @incrementar-cantidad="incrementarCantidad"
+    @decrementar-cantidad="decrementarCantidad"
+  />
 
   <main class="container-xl mt-5">
     <h2 class="text-center">Nuestra Colección</h2>
