@@ -5,7 +5,7 @@ export const db = [
     imagen: "guitarra_01",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 299,
+    precio: 200,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const db = [
     imagen: "guitarra_02",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 349,
+    precio: 300,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const db = [
     imagen: "guitarra_03",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 329,
+    precio: 300,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const db = [
     imagen: "guitarra_04",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 299,
+    precio: 200,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const db = [
     imagen: "guitarra_05",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 399,
+    precio: 300,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const db = [
     imagen: "guitarra_06",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 329,
+    precio: 300,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const db = [
     imagen: "guitarra_07",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 349,
+    precio: 300,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const db = [
     imagen: "guitarra_08",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 379,
+    precio: 300,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const db = [
     imagen: "guitarra_09",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 289,
+    precio: 200,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const db = [
     imagen: "guitarra_10",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 349,
+    precio: 300,
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const db = [
     imagen: "guitarra_11",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 399,
+    precio: 300,
   },
   {
     id: 12,
@@ -93,6 +93,6 @@ export const db = [
     imagen: "guitarra_12",
     descripcion:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    precio: 379,
+    precio: 300,
   },
 ];
